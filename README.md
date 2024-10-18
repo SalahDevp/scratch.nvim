@@ -5,8 +5,9 @@
 ## Features
 
 - Open a scratch buffer
-- Automaticaly detect the language based on the active buffer or manually specify it.
-- Run scratch buffer's code
+- Automatically sets the scratch buffer content to the selected text if in visual mode
+- Evaluate the code in the scratch buffer
+- Automatically detect the language based on the active buffer or manually specify it.
 
 ## Installation & Configuration
 

@@ -41,6 +41,10 @@ function Buffer.eval()
 	vim.cmd("w ! " .. langConfig.run_cmd)
 end
 
+function Buffer.set_content(content)
+	vim.api.nvim_buf_set_lines(Buffer.buf, 0, -1, false, content)
+end
+
 return Buffer
 
 -- gcc -x c - -o /dev/stdout | sh
